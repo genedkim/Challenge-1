@@ -31,8 +31,10 @@ To meet above criteria I began by replacing all the div tags in the starter code
 
 # Usage
 
-![Webpage Screenshot Top](./Develop/assets/images/screen-shot-01.png)
+[Link to Webpage](https://genedkim.github.io/Challenge-1/)
 
-![Webpage Screenshot Mid](./Develop/assets/images/screen-shot-02.png)
+![Webpage Screenshot Top](./assets/images/screen-shot-01.png)
 
-![Webpage Screenshot Bottom](./Develop/assets/images/screen-shot-03.png)
+![Webpage Screenshot Mid](./assets/images/screen-shot-02.png)
+
+![Webpage Screenshot Bottom](./assets/images/screen-shot-03.png)
