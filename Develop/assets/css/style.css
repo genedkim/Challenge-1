@@ -24,6 +24,7 @@ body {
     color: #d9dcd6;
 }
 
+/* changed div to nav in the three instances below after doing the same within the header element of the html */
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -75,6 +76,26 @@ p {
     margin-left: 20px;
 }
 
+/* consolidated instances of repeat code for the three classes: search-engine-optimization, online-reputation-management 
+and social-media-marketing into one class selector and named it content-section */
+.content-section {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.content-section img {
+    max-height: 200px;
+}
+
+.content-section h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -86,6 +107,8 @@ p {
     background-color: #2589bd;
 }
 
+/* consolidated instances of repeat code for the three classes: benefit-lead, benefit-brand and benefit-cost 
+into one class selector and named it benefit-section */
 .benefit-section {
     margin-bottom: 32px;
     color: #ffffff;
@@ -102,24 +125,6 @@ p {
     max-width: 150px;
 }
 
-.main-section {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.main-section img {
-    max-height: 200px;
-}
-
-.main-section h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
 .footer {
     padding: 30px;
     clear: both;
@@ -127,6 +132,7 @@ p {
     text-align: center;
 }
 
+/* changed h2 to h4 so the headers follow sequential order */
 .footer h4 {
     font-size: 20px;
 }
